@@ -3,7 +3,6 @@ package com.reflex.service;
 import com.google.common.base.*;
 import com.google.common.collect.*;
 
-import java.util.HashSet;
 import java.util.List;
 import java.util.Optional;
 
@@ -35,7 +34,6 @@ public class GuavaDemo {
         Iterable<String> iterable=Splitter.onPattern("\\s+").split("12 \t13 \n  \r\n   14");
         System.out.println(iterable);
 
-
         Objects.equal(op, a);
 
         MoreObjects.toStringHelper(op);
@@ -54,10 +52,23 @@ public class GuavaDemo {
 
         Sets.newHashSet().add("k");
 
-
-
-
         System.out.println(MoreObjects.toStringHelper(op));
+
 
     }
 }
+
+//// Class is typically registered by the container.
+//class EventBusChangeRecorder {
+//    @Subscribe
+//    public void recordCustomerChange(ChangeEvent e) {
+//        recordChange(e.getChange());
+//    }
+//}
+//// somewhere during initialization
+//eventBus.register(new EventBusChangeRecorder());
+//// much later
+//public void changeCustomer() {
+//        ChangeEvent event = getChangeEvent();
+//        eventBus.post(event);
+//        }

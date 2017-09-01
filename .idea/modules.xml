@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/reflex_spring_boot.iml" filepath="$PROJECT_DIR$/.idea/modules/reflex_spring_boot.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/reflex_spring_boot_main.iml" filepath="$PROJECT_DIR$/.idea/modules/reflex_spring_boot_main.iml" group="reflex_spring_boot" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/reflex_spring_boot_test.iml" filepath="$PROJECT_DIR$/.idea/modules/reflex_spring_boot_test.iml" group="reflex_spring_boot" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-boot-api-project-seed/spring-boot-api-project-seed.iml" filepath="$PROJECT_DIR$/../spring-boot-api-project-seed/spring-boot-api-project-seed.iml" />
     </modules>
   </component>
 </project>
