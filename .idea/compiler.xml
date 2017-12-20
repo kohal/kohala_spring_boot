@@ -7,13 +7,30 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spider-biz-service" />
+        <module name="spider-common-dal" />
+        <module name="spider-common-dht-client" />
+        <module name="spider-common-model" />
+        <module name="spider-common-service" />
+        <module name="spider-common-util" />
+        <module name="spider-core-service" />
         <module name="spring-boot-api-project-seed" />
+        <module name="webapp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="reflex_spring_boot_main" target="1.8" />
       <module name="reflex_spring_boot_test" target="1.8" />
-      <module name="spring-boot-api-project-seed" target="1.7" />
+      <module name="spider" target="1.7" />
+      <module name="spider-biz-service" target="1.7" />
+      <module name="spider-common-dal" target="1.7" />
+      <module name="spider-common-dht-client" target="1.7" />
+      <module name="spider-common-model" target="1.7" />
+      <module name="spider-common-service" target="1.7" />
+      <module name="spider-common-util" target="1.7" />
+      <module name="spider-core-service" target="1.7" />
+      <module name="spring-boot-api-project-seed" target="1.8" />
+      <module name="webapp" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -3,7 +3,9 @@ package com.reflex.service;
 import com.google.common.base.*;
 import com.google.common.collect.*;
 
+import javax.annotation.Nullable;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 
 /**
@@ -52,7 +54,20 @@ public class GuavaDemo {
 
         Sets.newHashSet().add("k");
 
+//        Ordering
+
+        System.out.println(Objects.equal(null,null));
+
         System.out.println(MoreObjects.toStringHelper(op));
+
+        Map map1 = Maps.toMap(list, new Function<Object, Integer>() {
+            @Nullable
+            @Override
+            public Integer apply(@Nullable Object input) {
+                return input.hashCode();
+            }
+        });
+        System.out.println(map1);
 
 
     }

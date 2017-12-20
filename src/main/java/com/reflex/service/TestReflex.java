@@ -39,5 +39,10 @@ public class TestReflex {
 
 
         System.out.println(copy.trim().replaceAll(" +",""));
+
+        String no = "DPR1168223828954777237149_FTK_T";
+        System.out.println(no.toCharArray().length);
+
+
     }
 }

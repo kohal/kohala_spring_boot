@@ -2,6 +2,7 @@ package com.reflex.service;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.net.URL;
 
 /**
  * @Author: xuyongjian
@@ -33,16 +34,25 @@ public class ClassLoaderTest {
                     }
                 }
 
+                @Override
+                protected Class<?> findClass(String name) throws ClassNotFoundException {
+                    return null ;
+                }
             };
 
 
             Object obj = null;
             Object obj1 = null;
+            URL path = null;
+            URL path1 = null;
 
 
             try {
                 obj=Class.forName("com.reflex.service.ClassLoaderTest").newInstance();
                 obj1 = myLoader.loadClass("com.reflex.service.ClassLoaderTest").newInstance();
+                path= myLoader.getResource("./");
+                path1=ClassLoader.getSystemClassLoader().getResource("./");
+
             } catch (InstantiationException e) {
                 e.printStackTrace();
             } catch (IllegalAccessException e) {
@@ -53,6 +63,10 @@ public class ClassLoaderTest {
             System.out.println(obj.getClass());
             System.out.println(obj instanceof ClassLoaderTest);
             System.out.println(obj1 instanceof ClassLoaderTest );
+
+            System.out.println(path);
+            System.out.println(path1);
+            System.out.println(System.getProperty("user.dir"));
 
 
         }

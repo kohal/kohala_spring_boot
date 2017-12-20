@@ -1,6 +1,7 @@
 package com.reflex.service;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 import java.util.function.Predicate;
 
@@ -23,14 +24,15 @@ public class Java8Test {
 //                }
 //        ).start();
 
-//        List<String> strList = Arrays.asList("I", "love", "you", "too");
-////       Comparator
-//        Collections.sort(strList, (s1, s2) -> {// 省略参数表的类型
+        List<String> strList = Arrays.asList("I", "love", "you", "too");
+//       Comparator
+        Collections.sort(strList, (s1, s2) ->s1.compareTo(s2) );// 省略参数表的类型
 //            if (s1 == null)
 //                return -1;
 //            if (s2 == null)
 //                return 1;
-//            return s1.length() - s2.length();
+////            return s1.length() - s2.length();
+//            return 1;
 //        });
 ////        Consumer
 //        strList.forEach((s) ->

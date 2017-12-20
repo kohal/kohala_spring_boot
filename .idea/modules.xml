@@ -2,10 +2,20 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$USER_HOME$/Downloads/learn doc/Classloader/Classloader.iml" filepath="$USER_HOME$/Downloads/learn doc/Classloader/Classloader.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/reflex_spring_boot.iml" filepath="$PROJECT_DIR$/.idea/modules/reflex_spring_boot.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/reflex_spring_boot_main.iml" filepath="$PROJECT_DIR$/.idea/modules/reflex_spring_boot_main.iml" group="reflex_spring_boot" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/reflex_spring_boot_test.iml" filepath="$PROJECT_DIR$/.idea/modules/reflex_spring_boot_test.iml" group="reflex_spring_boot" />
+      <module fileurl="file://$USER_HOME$/Downloads/sprder/spider.iml" filepath="$USER_HOME$/Downloads/sprder/spider.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/sprder/spider-biz-service/spider-biz-service.iml" filepath="$USER_HOME$/Downloads/sprder/spider-biz-service/spider-biz-service.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/sprder/spider-common-dal/spider-common-dal.iml" filepath="$USER_HOME$/Downloads/sprder/spider-common-dal/spider-common-dal.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/sprder/spider-common-dht-client/spider-common-dht-client.iml" filepath="$USER_HOME$/Downloads/sprder/spider-common-dht-client/spider-common-dht-client.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/sprder/spider-common-model/spider-common-model.iml" filepath="$USER_HOME$/Downloads/sprder/spider-common-model/spider-common-model.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/sprder/spider-common-service/spider-common-service.iml" filepath="$USER_HOME$/Downloads/sprder/spider-common-service/spider-common-service.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/sprder/spider-common-util/spider-common-util.iml" filepath="$USER_HOME$/Downloads/sprder/spider-common-util/spider-common-util.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/sprder/spider-core-service/spider-core-service.iml" filepath="$USER_HOME$/Downloads/sprder/spider-core-service/spider-core-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/../spring-boot-api-project-seed/spring-boot-api-project-seed.iml" filepath="$PROJECT_DIR$/../spring-boot-api-project-seed/spring-boot-api-project-seed.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/sprder/webapp/webapp.iml" filepath="$USER_HOME$/Downloads/sprder/webapp/webapp.iml" />
     </modules>
   </component>
 </project>
